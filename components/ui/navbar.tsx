@@ -15,6 +15,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { ModeToggle } from "./theme";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -60,6 +61,9 @@ export function NavigationMenuDemo() {
       <div>
         <div className="mt-5 mb-3 text-6xl text-center flex justify-center">
           <img src={LogoSrc.src} alt="Logo" width={100} height={100} />
+          <div className="ml-2">
+            <ModeToggle />
+          </div>
         </div>
         <div className="flex justify-center">
           <NavigationMenu>
