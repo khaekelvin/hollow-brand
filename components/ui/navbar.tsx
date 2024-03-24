@@ -1,5 +1,5 @@
 "use client";
-import LogoSrc from "@/images/black hollow no back.png";
+import LogoSrc from "@/images/final hollow.png";
 
 import * as React from "react";
 import Link from "next/link";
