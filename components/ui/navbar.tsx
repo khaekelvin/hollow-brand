@@ -16,6 +16,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { ModeToggle } from "./theme";
+const theme = "light";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -60,7 +61,14 @@ export function NavigationMenuDemo() {
     <div className="grid justify-center text-center">
       <div>
         <div className="mt-5 mb-3 text-6xl text-center flex justify-center">
-          <img src={LogoSrc.src} alt="Logo" width={100} height={100} />
+          {/* <img src={LogoSrc.src} alt="Logo" width={100} height={100} /> */}
+          <img
+            src={LogoSrc.src}
+            alt="Logo"
+            width={100}
+            height={100}
+            // className={`${theme === "light" ? "filter invert" : ""}`}
+          />
           <div className="ml-2">
             <ModeToggle />
           </div>
