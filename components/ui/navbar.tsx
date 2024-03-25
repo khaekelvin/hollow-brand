@@ -15,8 +15,8 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+
 import { ModeToggle } from "./theme";
-const theme = "light";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -67,7 +67,7 @@ export function NavigationMenuDemo() {
             alt="Logo"
             width={100}
             height={100}
-            // className={`${theme === "light" ? "filter invert" : ""}`}
+            className={`dark:invert`}
           />
           <div className="ml-2">
             <ModeToggle />
