@@ -90,9 +90,8 @@ export function NavigationMenuDemo() {
                             HOLLOW
                           </div>
                           <p className="text-sm leading-tight text-muted-foreground">
-                            Beautifully designed components that you can copy
-                            and paste into your apps. Accessible. Customizable.
-                            Open Source.
+                            Hollow Threads offers a range of clothing that
+                            embodies the rebellious spirit of teenagers.
                           </p>
                         </a>
                       </NavigationMenuLink>
