@@ -41,7 +41,6 @@ export function NavigationMenuDemo() {
     <div className="grid justify-center text-center">
       <div>
         <div className="mt-5 mb-3 text-6xl text-center flex justify-center">
-          {/* <img src={LogoSrc.src} alt="Logo" width={100} height={100} /> */}
           <img
             src={LogoSrc.src}
             alt="Logo"
