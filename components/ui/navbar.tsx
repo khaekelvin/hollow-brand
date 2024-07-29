@@ -21,24 +21,31 @@ import { ModeToggle } from "./theme";
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Trends",
-    href: "/docs/primitives/alert-dialog",
+    href: "#",
     description: "Discover the latest trends.",
   },
   {
     title: "Merch",
-    href: "/docs/primitives/hover-card",
+    href: "#",
     description: "Check our merch.",
   },
   {
     title: "Socials",
-    href: "/docs/primitives/progress",
+    href: "#",
     description: "Follow us on our socials.",
   },
 ];
 
 export function NavigationMenuDemo() {
   return (
-    <div className="grid justify-center text-center">
+    <div
+      className="grid justify-center text-center h-screen"
+      style={{
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundImage: `url('https://images.unsplash.com/photo-1620738295957-69658f030d25?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+      }}
+    >
       <div>
         <div className="mt-5 mb-3 text-6xl text-center flex justify-center">
           <img
@@ -48,11 +55,11 @@ export function NavigationMenuDemo() {
             height={100}
             className={`dark:invert`}
           />
-          <div className="ml-2">
+          <div className="ml-2 hidden">
             <ModeToggle />
           </div>
         </div>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -109,7 +116,7 @@ export function NavigationMenuDemo() {
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
-        </div>
+        </div> */}
       </div>
     </div>
   );

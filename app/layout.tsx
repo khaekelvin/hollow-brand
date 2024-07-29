@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Home from "./page";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import Hero from "./sections/Hero/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body className="bg-black">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -26,6 +27,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Home />
+          <Hero />
         </ThemeProvider>
       </body>
     </html>
