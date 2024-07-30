@@ -4,6 +4,7 @@ import "./globals.css";
 import Home from "./page";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import Hero from "./sections/Hero/page";
+import Top from "./sections/Top/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Home />
+          <Top />
           <Hero />
         </ThemeProvider>
       </body>

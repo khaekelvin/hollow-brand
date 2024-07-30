@@ -47,7 +47,7 @@ export function NavigationMenuDemo() {
       }}
     >
       <div>
-        <div className="mt-5 mb-3 text-6xl text-center flex justify-center">
+        <div className="">
           <img
             src={LogoSrc.src}
             alt="Logo"
