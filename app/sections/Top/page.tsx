@@ -14,7 +14,7 @@ import { FlipWords } from "@/components/ui/flip-words";
 // }
 
 function Top() {
-  const words = ["Original", "Unique", "Bold", "Modern"];
+  const words = ["Original", "Unique", "Fearless", "Modern"];
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <h2 className="text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
