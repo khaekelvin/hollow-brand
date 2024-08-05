@@ -12,32 +12,32 @@ import { FaBehanceSquare } from "react-icons/fa";
 export default function Features() {
   const features = [
     {
-      title: "Track issues effectively",
+      title: "Showcasing the Brand",
       description:
-        "Track and manage your project issues with ease using our intuitive interface.",
+        "Discover the essence of Hollow Threads through a curated showcase of our iconic pieces.",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
     },
     {
-      title: "Capture pictures with AI",
+      title: "Explore Every Angle",
       description:
-        "Capture stunning photos effortlessly using our advanced AI technology.",
+        "Get up close and personal with Hollow Threads through our multiple images feature.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
     {
-      title: "Watch our AI on YouTube",
+      title: "Support Hollow",
       description:
-        "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+        "Follow Hollow Threads on Behance to explore our creative journey.Follow Hollow Threads on Behance to explore our creative journey.",
       skeleton: <SkeletonThree />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
     },
     {
-      title: "Deploy in seconds",
+      title: "Global Reach",
       description:
-        "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
+        "Hollow Threads has made its mark worldwide. Our brand is celebrated across the globe, from local boutiques to international fashion shows.",
       skeleton: <SkeletonFour />,
       className: "col-span-1 lg:col-span-3 border-b lg:border-none",
     },
@@ -46,12 +46,11 @@ export default function Features() {
     <div className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto">
       <div className="px-8">
         <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black dark:text-white">
-          Packed with thousands of features
+          Hollow Threads
         </h4>
 
         <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
-          From Image generation to video generation, Everything AI has APIs for
-          literally everything. It can even create this website copy for you.
+          Discover Our Unique Features
         </p>
       </div>
 
