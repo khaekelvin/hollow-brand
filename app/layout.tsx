@@ -7,6 +7,7 @@ import Hero from "./sections/Hero/page";
 import Top from "./sections/Top/page";
 import Footer from "./sections/Footer/page";
 import Box from "./sections/Box/page";
+import Features from "./sections/Feats/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Home />
           <Top />
           <Box />
+          <Features />
           <Hero />
           <Footer />
         </ThemeProvider>
