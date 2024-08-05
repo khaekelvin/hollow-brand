@@ -5,6 +5,8 @@ import Home from "./page";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import Hero from "./sections/Hero/page";
 import Top from "./sections/Top/page";
+import Footer from "./sections/Footer/page";
+import Box from "./sections/Box/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +31,9 @@ export default function RootLayout({
         >
           <Home />
           <Top />
+          <Box />
           <Hero />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

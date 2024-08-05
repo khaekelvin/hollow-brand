@@ -1,18 +1,3 @@
-// import React from "react";
-
-// export default function Hero() {
-
-//   return (
-//     <div className="h-screen flex justify-center items-center px-4">
-//       <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-//         Build
-//         <FlipWords words={words} /> <br />
-//         websites with Aceternity UI
-//       </div>
-//     </div>
-//   );
-// }
-
 "use client";
 import Image from "next/image";
 import React from "react";
@@ -38,39 +23,46 @@ export default function Hero() {
 
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
+    category: "Stand Out",
+    title: "Bold Designs",
+    desc: "Hollow Threads offers clothing with bold and unique designs that make a statement. Our pieces are crafted to help you express your individuality and stand out from the crowd.",
     src: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722345411/smartmockups_lz8fz68m_kbl2w2.jpg",
+    pic: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722345411/smartmockups_lz8fz68m_kbl2w2.jpg",
     content: null,
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
+    category: "Feel the Difference",
+    title: "Quality Materials",
+    desc: "We use high-quality fabrics and materials to ensure comfort and durability. Each piece is designed to last, so you can enjoy your favorite styles for seasons to come.",
     src: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722345531/smartmockups_lz8fzuiz_nhfzfy.jpg",
     content: null,
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
+    category: "Fashion Forward",
+    title: "Sustainable Practices",
+    desc: "At Hollow Threads, we are committed to sustainable fashion. We prioritize eco-friendly materials and ethical production processes, helping to reduce our environmental footprint.",
     src: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722345531/smartmockups_lz8g0z3m_d8d7yc.jpg",
     content: null,
   },
 
   {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
+    category: "From Day to Night",
+    title: "Versatile Styles",
+    desc: "Our versatile styles are perfect for any occasion. Whether you're dressing up for a night out or keeping it casual, Hollow Threads has you covered with adaptable pieces that suit your lifestyle.",
     src: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722350152/smartmockups_lz8ispbe_mnliuu.jpg",
     content: null,
   },
   {
-    category: "iOS",
-    title: "Photography just got better.",
+    category: "Exclusive & Unique",
+    title: "Limited Edition Collections",
+    desc: "Personalize your Hollow Threads pieces with customizable options. From choosing colors to adding unique details, we offer a range of customization choices to make each item truly your own.",
     src: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722350859/smartmockups_lz8j72kv_mnx1qq.jpg",
     content: null,
   },
   {
-    category: "Hiring",
-    title: "Hiring for a Staff Software Engineer",
+    category: "Make It Yours",
+    title: "Customizable Options",
+    desc: "We believe that fashion should be accessible to everyone. Hollow Threads offers a wide range of sizes, ensuring that all customers can find the perfect fit and style for their body type.",
     src: "https://res.cloudinary.com/dvfmse8he/image/upload/v1722350859/smartmockups_lz8j7xlr_bqkt2c.jpg",
     content: null,
   },

@@ -25,6 +25,7 @@ type Card = {
   src: string;
   title: string;
   category: string;
+  desc: string;
   content: React.ReactNode;
 };
 
@@ -230,6 +231,12 @@ export const Card = ({
                 className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white"
               >
                 {card.title}
+              </motion.p>
+              <motion.p
+                layoutId={layout ? `title-${card.desc}` : undefined}
+                className="text-white pt-5 text-lg"
+              >
+                {card.desc}
               </motion.p>
               <div className="py-10">{card.content}</div>
             </motion.div>
